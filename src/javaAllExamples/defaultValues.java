@@ -1,7 +1,5 @@
 package javaAllExamples;
 
-
-
 	class global{
 		float a;
 		byte b;
@@ -22,7 +20,7 @@ package javaAllExamples;
 		
 		}
 	}
-	public class defaultValues {
+	public class DefaultValues {
 
 		public static void main(String[] args) {
 

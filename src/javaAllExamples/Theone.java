@@ -1,18 +1,20 @@
 package javaAllExamples;
-class Theone {
 
-		int i;
-		void display(int x)
+public class Theone {
+
+	public static String i="Hello";
+	int B;
+		void display(int y)
 		{
-			 i =x;
+						
+			 B=y;
 		}
 		void show()
-		{
-			System.out.println(i);
+		{			System.out.println(i);
+
+			System.out.println(B);
 		}
-	}
-	class xyz
-	{
+
 		public static void main(String[] args) 
 		{		
 		Theone call=new Theone();
