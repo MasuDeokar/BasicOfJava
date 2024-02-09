@@ -1,19 +1,17 @@
 package javaAllExamples;
 
-public class WhileDemoOne {
-	
+public class DoWhileLoop {
+
 	public static void main(String[] args) {
 		
-		//while loop 
-		//1 to 10
-		int i=0;
-		
-		while (i<=10)
+		int i=20;
+		do
 		{
 			System.out.println(i);
 			i++;
-		}
-		
+		}while(i<30); // 1 loop executed guaranteed.
+
+
 	}
 
 }
